@@ -1,0 +1,19 @@
+import java.util.*;
+public class Diff_array {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("n = ");
+        int n = scn.nextInt();
+        int[] a = new int[n];
+        for(int i=0;i<n;i++){
+            a[i]=scn.nextInt();
+        }
+        int count=0;
+        for(int i=0;i<n;i++){
+            if(arr[i]==k){
+            count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
